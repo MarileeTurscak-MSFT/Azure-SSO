@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - My ASP.NET Application</title>
+    <link href="/Content/css?v=r3qd_bKV1IGKvtXPCrsHNJoogK8Sn_q4eU89oy536zk1" rel="stylesheet" />
+
+    <script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+    <script src="/Scripts/jquery-2.1.4.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/bsPhotogallery.js"></script>
+
+</head>
+<body>
+ 
+    <div class="container body-content">
+
+
+        <h2>Bats of the World</h2>
+
+        <div class="container">
+            <ul class="first">
+                <li style="list-style-type: none;">
+                    <img src="~/Content/BadgerPandaBat.jpg" />
+                    <p>Badger Panda Bat</p>
+                </li>
+                <li style="list-style-type: none;">
+                    <img src="~/Content/Blossombat(SmallestFlyingFoxBatSpecies).png" />
+                    <p>Blossom Bat.</p>
+                </li>
+                <li style="list-style-type: none;">
+                    <img src="~/Content/BumblebeeBat.jpg" />
+                    <p>Bumblebee Bat, the world's smallest bat species</p>
+                </li>
+                <li style="list-style-type: none;">
+                    <img src="~/Content/ChalinolobusGouldii(GouldsWattledBat).jpg" />
+                    <p>Chalinolobus Gouldii (Gould's Wattled Bat)</p>
+                </li>
+                <li style="list-style-type: none;">
+                    <img src="~/Content/DwarfEpaulettedFruitBat.jpg" />
+                    <p>Dwarf Epauletted Fruit Bat</p>
+                </li>
+            </ul>
+        </div>
+
+        <script>
+            $('ul.first').bsPhotoGallery({
+                "classes": "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+                "hasModal": true
+            });
+
+        </script>
+
+        <hr />
+   
+    </div>
+
+    <script src="/bundles/jquery?v=gGGRI7xCOnEK-4qvkXXwhmbyGmA8S3tmz-Wto5bGsIc1"></script>
+
+    <script src="/bundles/bootstrap?v=Pn2k_02rZkY8DPE1hp5YHNI-isXJwoXRUt82hlLjVzg1"></script>
+
+
+</body>
+</html>
